@@ -64,17 +64,11 @@ cloudbox/
 
 ### 1️⃣ Clone the Repository
 
+## ⚙️ Installation & Setup (Local)
+
+### 1️⃣ Clone the Repository
+
 ```bash
 git clone https://github.com/GopikaS/cloudboxx.git
 cd cloudboxx
 
----
-
-2️⃣ Setup the Backend
-cd backend
-npm install
-node server.js
-
-
-✅ Backend runs at 👉 http://localhost:5000
----
