@@ -113,11 +113,12 @@ Frontend runs at 👉 http://localhost:3000
 4. Select backend as the root directory
 
 5. Add the build command:
-bash```
+```bash
 npm install
+
 ```
 6. Add the start command:
-bash```
+```bash
 node server.js
 ```
 7. Click Deploy 🚀
@@ -133,8 +134,6 @@ node server.js
 -> 🧠 AI-based document organization
 
 ### 👩‍💻 Author
-
-Gopika S
-B.E. Computer Science and Engineering
-Madras Institute of Technology, Anna University
-
+**Gopika S**  
+B.E. Computer Science and Engineering  
+*Madras Institute of Technology, Anna University*  
