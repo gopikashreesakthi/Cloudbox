@@ -92,8 +92,7 @@ Frontend runs at 👉 http://localhost:3000
 
 The React frontend is automatically served through Express!
 
----
-###🌍 Deployment on Render (Free Hosting)
+### 🌍 Deployment on Render (Free Hosting)
 
 1. Follow these steps to deploy both backend & frontend together:
 
