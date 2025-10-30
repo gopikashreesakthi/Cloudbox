@@ -94,51 +94,45 @@ Frontend runs at 👉 http://localhost:3000
 
 🚀 Deploy Frontend (React) on Vercel
 
-Go to vercel.com
+1. Go to vercel.com
 
-Import your GitHub repo
+2. Import your GitHub repo
 
-Choose the frontend folder as the root directory
+3. Choose the frontend folder as the root directory
 
-Click Deploy 🚀
+4. Click Deploy 🚀
 
 🚀 Deploy Backend (Node.js) on Render
 
-Go to render.com
+1. Go to render.com
 
-Create a New Web Service
+2. Create a New Web Service
 
-Connect your GitHub repo
+3. Connect your GitHub repo
 
-Select backend as the root directory
+4. Select backend as the root directory
 
-Add the build command:
-
+5. Add the build command:
+bash```
 npm install
-
-
-Add the start command:
-
+```
+6. Add the start command:
+bash```
 node server.js
+```
+7. Click Deploy 🚀
 
+### 💡 Future Enhancements
 
-Click Deploy 🚀
+-> 🔐 User authentication
 
-📸 Preview
+-> ☁️ Cloud storage integration (Firebase / AWS S3)
 
-(Add screenshots or demo GIFs here if available)
+-> 🧹 File categorization
 
-💡 Future Enhancements
+-> 🧠 AI-based document organization
 
-🔐 User authentication
-
-☁️ Cloud storage integration (Firebase / AWS S3)
-
-🧹 File categorization
-
-🧠 AI-based document organization
-
-👩‍💻 Author
+### 👩‍💻 Author
 
 Gopika S
 B.E. Computer Science and Engineering
