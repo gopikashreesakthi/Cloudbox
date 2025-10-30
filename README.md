@@ -102,7 +102,7 @@ The React frontend is automatically served through Express!
 
 4. Connect your GitHub repository (Cloudbox)
 
-5.Select the backend folder as the root directory
+5. Select the backend folder as the root directory
 
 6. Under "Build Command", enter:
 ```bash
@@ -124,7 +124,7 @@ Render will:
 
 -> Build your frontend inside the backend
 
-->Serve both frontend & backend under one domain (e.g., https://cloudbox.onrender.com
+-> Serve both frontend & backend under one domain (e.g., https://cloudbox.onrender.com
 
 ### 💡 Future Enhancements
 
