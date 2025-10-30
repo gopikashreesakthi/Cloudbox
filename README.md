@@ -90,38 +90,42 @@ npm start
 ```
 Frontend runs at 👉 http://localhost:3000 
 
-### 🌍 🌍 Deployment
+The React frontend is automatically served through Express!
 
-🚀 Deploy Frontend (React) on Vercel
+---
+###🌍 Deployment on Render (Free Hosting)
 
-1. Go to vercel.com
+1. Follow these steps to deploy both backend & frontend together:
 
-2. Import your GitHub repo
+2. Go to render.com
 
-3. Choose the frontend folder as the root directory
+3. Click "New +" → Web Service
 
-4. Click Deploy 🚀
+4. Connect your GitHub repository (Cloudbox)
 
-🚀 Deploy Backend (Node.js) on Render
+5.Select the backend folder as the root directory
 
-1. Go to render.com
-
-2. Create a New Web Service
-
-3. Connect your GitHub repo
-
-4. Select backend as the root directory
-
-5. Add the build command:
+6. Under "Build Command", enter:
 ```bash
-npm install
+npm install && npm run build --prefix ../frontend
 
 ```
-6. Add the start command:
+7. Under "Start Command", enter:
 ```bash
 node server.js
 ```
-7. Click Deploy 🚀
+
+8. Choose the Free Plan
+
+9. Click Deploy 🚀
+
+Render will:
+
+-> Install dependencies for your backend
+
+-> Build your frontend inside the backend
+
+->Serve both frontend & backend under one domain (e.g., https://cloudbox.onrender.com
 
 ### 💡 Future Enhancements
 
