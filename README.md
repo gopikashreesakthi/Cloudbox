@@ -35,7 +35,7 @@ CloudBox is a full-stack web application that allows users to **upload, store, a
 ---
 
 ## 📦 Folder Structure
-
+```markdown
 cloudbox/
 │
 ├── backend/
@@ -57,7 +57,7 @@ cloudbox/
 │
 └── README.md
 
-
+```
 ---
 
 ## ⚙️ Installation & Setup (Local)
