@@ -62,78 +62,16 @@ cloudbox/
 
 ## ⚙️ Installation & Setup (Local)
 
-### 1️⃣ Clone the repository
+### 1️⃣ Clone the Repository
+
 ```bash
-git clone https://github.com/your-username/cloudbox.git
-cd cloudbox
----
-### 2️⃣ Setup the backend
+git clone https://github.com/GopikaS/cloudboxx.git
+cd cloudboxx
+
+2️⃣ Setup the Backend
 cd backend
 npm install
 node server.js
 
 
-Backend runs at 👉 http://localhost:5000
-
-### 3️⃣ Setup the frontend
-
-Open a new terminal:
-
-cd frontend
-npm install
-npm start
-
-
-Frontend runs at 👉 http://localhost:3000
-
-🌍 Deployment
-Deploy Frontend (React) on Vercel
-
-Go to vercel.com
-
-Import your GitHub repo
-
-Choose the frontend folder as the root directory
-
-Deploy 🚀
-
-Deploy Backend (Node.js) on Render
-
-Go to render.com
-
-Create a New Web Service
-
-Connect your GitHub repo
-
-Select backend as the root directory
-
-Add the build command:
-
-npm install
-
-
-And start command:
-
-node server.js
-
-
-Deploy 🚀
-
-📸 Preview
-
-💡 Future Enhancements
-
-🔐 User authentication
-
-☁️ Cloud storage (Firebase / AWS S3)
-
-🧹 File categorization
-
-🧠 AI-based document organization
-
-👩‍💻 Author
-
-Gopika S
-B.E. Computer Science and Engineering
-[Madras Institute of Technology, Anna University]
-
+✅ Backend runs at 👉 http://localhost:5000
