@@ -57,8 +57,6 @@ cloudbox/
 │
 └── README.md
 
-yaml
-Copy code
 
 ---
 
@@ -68,26 +66,29 @@ Copy code
 ```bash
 git clone https://github.com/your-username/cloudbox.git
 cd cloudbox
+---
 2️⃣ Setup the backend
-bash
-Copy code
 cd backend
 npm install
 node server.js
+
+
 Backend runs at 👉 http://localhost:5000
 
 3️⃣ Setup the frontend
+
 Open a new terminal:
 
-bash
-Copy code
 cd frontend
 npm install
 npm start
+
+
 Frontend runs at 👉 http://localhost:3000
 
 🌍 Deployment
 Deploy Frontend (React) on Vercel
+
 Go to vercel.com
 
 Import your GitHub repo
@@ -97,6 +98,7 @@ Choose the frontend folder as the root directory
 Deploy 🚀
 
 Deploy Backend (Node.js) on Render
+
 Go to render.com
 
 Create a New Web Service
@@ -107,19 +109,20 @@ Select backend as the root directory
 
 Add the build command:
 
-nginx
-Copy code
 npm install
+
+
 And start command:
 
-nginx
-Copy code
 node server.js
+
+
 Deploy 🚀
 
 📸 Preview
 
 💡 Future Enhancements
+
 🔐 User authentication
 
 ☁️ Cloud storage (Firebase / AWS S3)
@@ -129,7 +132,8 @@ Deploy 🚀
 🧠 AI-based document organization
 
 👩‍💻 Author
+
 Gopika S
 B.E. Computer Science and Engineering
 [Madras Institute of Technology, Anna University]
-💌 LinkedIn | GitHub
+
