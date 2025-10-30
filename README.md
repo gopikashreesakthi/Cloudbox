@@ -67,7 +67,7 @@ cloudbox/
 git clone https://github.com/your-username/cloudbox.git
 cd cloudbox
 ---
-2️⃣ Setup the backend
+### 2️⃣ Setup the backend
 cd backend
 npm install
 node server.js
@@ -75,7 +75,7 @@ node server.js
 
 Backend runs at 👉 http://localhost:5000
 
-3️⃣ Setup the frontend
+### 3️⃣ Setup the frontend
 
 Open a new terminal:
 
