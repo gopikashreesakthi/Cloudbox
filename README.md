@@ -72,11 +72,13 @@ cloudbox/
 git clone https://github.com/GopikaS/cloudboxx.git
 cd cloudboxx
 
-**2️⃣**** Setup the Backend**
+```
+**###2️⃣ Setup the Backend**
+
+```bash
 cd backend
 npm install
 node server.js
-
-
+```
 ✅ Backend runs at 👉 http://localhost:5000
 
