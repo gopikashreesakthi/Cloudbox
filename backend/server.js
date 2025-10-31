@@ -6,7 +6,7 @@ const path = require("path");
 const fs = require("fs");
 
 const app = express();
-const PORT = process.env.PORT || 5000; // Render provides PORT automatically
+const PORT = process.env.PORT || 5000;
 
 // Enable CORS & JSON parsing
 app.use(cors());
@@ -47,14 +47,13 @@ app.get("/download/:filename", (req, res) => {
   }
 });
 
-// ✅ Serve React build files
+// Serve React build files
 app.use(express.static(path.join(__dirname, "../frontend/build")));
-
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "../frontend/build", "index.html"));
 });
 
-// ✅ Start Server
-app.listen(PORT, () => {
+// Start Server (Render fix)
+app.listen(PORT, "0.0.0.0", () => {
   console.log(`✅ Server running on port ${PORT}`);
 });
